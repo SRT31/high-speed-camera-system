@@ -56,8 +56,7 @@ recorded before the lens was scratched and before the replacement of the green d
 Live preview and focus at 7.3 [cm]:
 
 Switched to full Raspberry Pi OS for preview, focused with a high-contrast ruler, max sharpness confirmed.
-Ruler image: <img src="focus_lens_adjustment.jpg" width="500"/>
-Nozzle at 7.3 cm: <img src="focus.jpg" width="500"/>
+Ruler image: <img src="focus_lens_adjustment.jpg" width="500"/>  
 
 ![Focus comparison – top: before calibration, bottom: after calibration](output.gif)
 
