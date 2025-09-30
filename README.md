@@ -74,9 +74,6 @@ The position is as follows:
 
 Although our earlier trials brought us close to a workable position, we later realized that the chosen spot was not viable for the actual exhibit. The installation, as shown in the image below, includes a yellow protective shield positioned in front of the droplet path. This barrier is designed to protect visitors from the strong UV, but it also makes it impossible to capture high quality footage through the shield. Any attempt to film through it would significantly degrade image clarity and distort the results.
 
-   *Exhibit with yellow UV protection shield*  
-   <img src="Exhibit.jpeg" width="500"/>  
-
 Because of this, we decided to relocate the camera behind the installation, bypassing the shield entirely. This new placement allows us to observe the droplet path directly, without the optical interference caused by the protective layer. On the prototype, we mounted the Raspberry Pi camera on the rear frame and secured the supporting electronics alongside it, as shown in the image below. The purpose of this setup is to evaluate whether the new perspective provides sufficient clarity.
 
 However, this rear placement introduces a new challenge, the camera is now much closer to the droplet column than before. As a result, we will need to reconfigure its settings such as focal length, frame height, and exposure parameters to adapt to the reduced distance. At the same time, we decided to keep the previous distance measurements documented, so that if needed we can reconfigure the camera back to its earlier position.
@@ -104,9 +101,6 @@ The lens is now calibrated for a working distance of 7.3 cm.
 *Focused view of the dispensing nozzle at 7.3 cm after lens calibration*  
 <img src="focus.jpg" width="500"/>
 
-The reason this adjustment is necessary is rooted in the imaging condition of a thin lens. The relation
-
-<img src="lens_equation.png" width="200"/>
 
 states that for a given focal length f, an object at distance D_0, will only form a sharp image if the sensor is positioned at the corresponding image distance D_i, By rotating the IMX219 lens, we are effectively changing the spacing between the lens and the sensor. At the correct position, the rays from each point in the object converge precisely on the sensor pixels, producing maximum sharpness and contrast. If the lens is rotated slightly in or out, the convergence plane shifts before or after the sensor, and the image becomes blurred. At our chosen working distance of 7.3 cm, the adjustment aligns the optical geometry exactly, ensuring accurate focusing.
 
