@@ -1,0 +1,35 @@
+{
+  "input": "/dev/shm/out.000001.raw",
+  "width": 640,
+  "height": 80,
+  "bitdepth": 10,
+  "bayer": "BGGR",
+  "mode": "dark",
+  "black_level_estimates": {
+    "R": 63.0,
+    "G1": 63.0,
+    "G2": 63.0,
+    "B": 63.0,
+    "used": 63
+  },
+  "saturation_estimates": {
+    "R": 65.0,
+    "G1": 65.0,
+    "G2": 65.0,
+    "B": 65.0,
+    "used": 65
+  },
+  "white_balance": {
+    "source": "brightest_nonclipped",
+    "r": 1.0001562809051594,
+    "g1": 0.9999597167477011,
+    "g2": 1.000040286498041,
+    "b": 1.0002356610046974
+  },
+  "dark_noise_std_dn": 0.0,
+  "dynamic_range_stops": null,
+  "fpn_metrics": {
+    "row_median_std": 0.0,
+    "col_median_std": 0.0
+  }
+}
