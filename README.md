@@ -101,3 +101,6 @@ Full raw frame sequences (results_by_roi; 640×N) are hosted on Google Drive:
 
 [results raw sequences](https://drive.google.com/drive/folders/1i8Yi8bLPdamnO_6knLZI2WysBVfbOUbY?usp=drive_link)
 
+All exhibit prototype documentation can be found in the [Prototype documentation](./Prototype%20documentation/) folder.
+
+
